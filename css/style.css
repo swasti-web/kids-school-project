@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* font-family: "Quicksand", serif; */
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* shared styles */
+.flex{
+    display: flex;
+}
+.btn{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.cp{
+    padding: 60px 0;
+}
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 2.875rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5rem;
+}
+.sky-blue{
+    color: skyblue;
+}
+.orange{
+    color: orange;
+}
+.sky{
+    color: #05D4DF;
+}
+.green{
+    color: #5D58EF;
+}
+.border{
+    border: 1px solid #7e0505;
+}
+/* header start */
+header{
+    
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.37rem 0;
+}
+.logo{
+    align-items: center;
+}
+.logo-text{
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    margin-left: 11px;
+    text-transform: uppercase;
+}
+.menu{}
+.menu ul li{
+    margin-right: 46px;
+}
+.menu ul li:last-child{
+    margin-right: 0;
+}
+.menu ul li a{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875;
+}
+.btn-primary{
+    background-color: #FEA301;
+}
+.btn-primary:hover{
+    background-color: #111;
+}
+.hero{
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.56rem;
+}
+.hero-content{
+    max-width: 640px;
+}
+.hero-title{
+    margin-right: 53px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #111111;
+}
+.hero-text{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #111111;
+    margin: 1.5rem 0;
+}
+.hero-img{}
+.btn-secondary{
+    background-color: #111;
+}
+.btn-secondary:hover{
+    background-color: #FEA301;
+}
+/* header end */
+
+/* main start */
+main{
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.curriculum{}
+.curriculum-items{
+    justify-content: center;
+    gap: 1.8rem;
+}
+.kinder-item{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(222,245,255,1) 100%);
+}
+.elementary-item{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(255,244,220,1) 100%);
+}
+.middle-item{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(238,225,255,1) 100%);
+}
+.curriculum-item{
+    padding: 53px 40px;
+    border-radius: 18px;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.curri-img{
+    max-width: 137px;
+    margin: 0 auto;
+}
+.curri-title{
+    margin: 32px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+}
+.curri-text{
+    margin-bottom: 33px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+.kinder-link{
+    font-size: 1rem;
+    color: #64C8FF;
+}
+.elementary-link{
+    font-size: 1rem;
+    color: #F0AA00;
+}
+.middle-link{
+    font-size: 1rem;
+    color: #8700FF;
+}
+.curriculum-item:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.
+/* main end */
