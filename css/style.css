@@ -225,12 +225,115 @@ button{
 }
 /* curriculum end */
 
+/* our stories start */
+.our-stories-container{
+    justify-content: space-between;
+    gap: 1.17rem;
+}
+.left-stories-content{
+    max-width: 540px;
+}
+.single-item{
+    border-radius: 18px;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s linear;
+}
+.single-item img{
+    max-width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+.single-item-content{
+    padding: 53px 40px;
+    position: relative;
+}
+.single-item-btn{
+    position: absolute;
+    top: -30px;
+    padding: 15px 19px;
+    border: none;
+    border-radius: 47px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #3CD8E8;
+    transition: all 0.5s linear;
+}
+/* .single-item-btn:hover{
+    transform: translateY(-5px);
+} */
+ .single-item-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    /* margin: 1.5rem 0; */
+ }
+ .single-item-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 2.93rem;
+ }
+ .right-stories-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.125rem;
+    max-width: 601px;
+ }
+ .group-item{
+    border-radius: 18px;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s linear;
+ }
+ .group-item img{
+    max-width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+.group-item-content{
+    padding: 39px 30px;
+    position: relative;
+}
+.group-item-btn{
+    position: absolute;
+    top: -20px;
+    padding: 10px 19px;
+    border: none;
+    border-radius: 47px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #3CD8E8;
+    transition: all 0.5s linear;
+}
+.group-item-title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+.stories-btn{
+    margin: 80px 0 60px;
+}
+.stories-bottom-btn{
+    padding: 10px 61px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875;
+    color: #fff;
+    background-color: #000000;
+    transition: all 0.5s linear;
+}
+/* our stories end */
+
 /* main end */
+
 /* footer start */
 .footer {
     background-color: #00aaff; /* Blue background color */
     color: white;
-    padding: 40px 20px;
+    padding: 123px 228px 174px 140px;
   }
   
   .footer-container {
