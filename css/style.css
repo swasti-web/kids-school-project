@@ -140,13 +140,13 @@ header{
 /* header end */
 
 /* main start */
-main{
+main{}
+.curriculum{
     background-image: url(../assets/bg.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
-.curriculum{}
 .curriculum-items{
     justify-content: center;
     gap: 1.8rem;
@@ -234,13 +234,31 @@ main{
     align-content: center;
 }
 /* curriculum end */
-.our-stories{}
+.our-stories{
+    background: linear-gradient(0deg, rgba(254, 163, 1, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url(../assets/bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .stories-content{
     justify-content: space-between;
     gap: 1.25rem;
 }
 .left-stories{
     max-width: 540px;
+}
+.left-stories-item{
+    padding: 60px 40px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s linear;
+}
+.left-stories img{
+    max-width: 100%;
+    border-radius: 18px;
+}
+.left-stories-item:hover{
+    transform: translateY(-10px);
 }
 .btn-story-one{}
 .left-title{}
@@ -251,6 +269,7 @@ main{
 .right-stories-items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
 }
 .right-stories-item{}
 .btn-story{}
