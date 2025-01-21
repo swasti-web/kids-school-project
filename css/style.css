@@ -41,7 +41,10 @@ button{
     font-weight: 600;
     line-height: 1.875;
     color: #fff;
-    transition: all 0.3s ease;
+    transition: all 0.5s linear;
+}
+.btn:hover{
+    transform: translateY(-5px);
 }
 .cp{
     padding: 60px 0;
@@ -147,6 +150,7 @@ main{
 .curriculum-items{
     justify-content: center;
     gap: 1.8rem;
+    margin-bottom: 5rem;
 }
 .kinder-item{
     background: rgb(255,255,255);
@@ -164,7 +168,7 @@ main{
     padding: 53px 40px;
     border-radius: 18px;
     box-shadow: 0 0 28px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
+    transition: all 0.3s linear;
     text-align: center;
 }
 .curri-img{
@@ -199,5 +203,56 @@ main{
     transform: translateY(-10px);
     cursor: pointer;
 }
-.
+.less-then{
+    background-color: #F0AA00;
+    padding: 28px 27px 24px;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+.less-then:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+.less-then i{
+    font-size: 1.625rem;
+    color: #fff;
+}
+.greater-then{
+    margin-left: 10px;
+    background-color: #F0AA00;
+    padding: 28px 27px 24px;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+.greater-then:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+.greater-then i{
+    font-size: 1.625rem;
+    color: #fff;
+    align-content: center;
+}
+/* curriculum end */
+.our-stories{}
+.stories-content{
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+.left-stories{
+    max-width: 540px;
+}
+.btn-story-one{}
+.left-title{}
+.left-text{}
+.right-stories{
+    max-width: 601px;
+}
+.right-stories-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.right-stories-item{}
+.btn-story{}
+.right-title{}
 /* main end */
