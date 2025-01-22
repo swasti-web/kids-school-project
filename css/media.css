@@ -99,6 +99,7 @@ flex-direction: column;
   gap: 8px;
 }
 .logo img{
+  margin-top: 5px;
   margin-bottom: 0;
   margin-left: -10px;
 }
