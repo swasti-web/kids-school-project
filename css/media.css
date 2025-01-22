@@ -81,6 +81,9 @@
   font-size: .5625rem;
   margin-top: 0;
 }
+.stories-btn{
+  display: none;
+}
 .footer{
   padding: 60px 21px;
 }
