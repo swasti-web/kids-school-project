@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -176,9 +177,10 @@ button{
 }
 .curri-text{
     margin-bottom: 33px;
-    font-size: 1rem;
+    font-size: 0.943125rem;
     font-weight: 500;
     color: #808080;
+    font-family: "Raleway", serif;
 }
 .kinder-link{
     font-size: 1rem;
@@ -243,7 +245,6 @@ button{
     max-width: 540px;
 }
 .single-item{
-    /* border-radius: 0 0 18px 18px; */
     box-shadow: 0 0 28px rgba(0, 0, 0, 0.05);
     transition: all 0.3s linear;
 }
@@ -252,7 +253,7 @@ button{
     border-radius: 18px 18px 0 0;
 }
 .single-item-content{
-    padding: 53px 40px;
+    padding: 61px 42px;
     position: relative;
     background-color: #fff;
     border-radius: 0 0 18px 18px;
@@ -261,6 +262,7 @@ button{
     position: absolute;
     top: -30px;
     padding: 15px 19px;
+    font-family: "Raleway", serif;
     border: none;
     border-radius: 47px;
     font-size: 1rem;
@@ -281,10 +283,11 @@ button{
     /* margin: 1.5rem 0; */
  }
  .single-item-text{
-    font-size: 1rem;
+    font-size: 0.95875rem;
     font-weight: 500;
     color: #666666;
     margin-top: 2.93rem;
+    font-family: "Raleway", serif;
  }
  .right-stories-content{
     display: grid;
@@ -319,6 +322,7 @@ button{
     color: #fff;
     background-color: #95B226;
     transition: all 0.5s linear;
+    font-family: "Raleway", serif;
 }
 .group-item-btn:hover{
     transform: translateY(-5px);
@@ -346,6 +350,10 @@ button{
     color: #fff;
     background-color: #000000;
     transition: all 0.5s linear;
+}
+.stories-bottom-btn:hover{
+    background-color: #FEA301;
+    transform: translateY(-5px);
 }
 /* our stories end */
 
@@ -405,6 +413,7 @@ button{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: -10px;
   }
   
   .logo img {
@@ -417,16 +426,16 @@ button{
     display: flex;
     gap: 15px;
     margin-top: 10px;
+    transition: all 0.5s linear;
   }
-  
   .social-icons img {
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s linear;
   }
-  
   .social-icons img:hover {
-    color: #ffd700; /* Golden hover color */
+    border-radius: 50%;
+    transform: scale(1.1) rotate(360deg);
   }
   .icon{
     display: none;

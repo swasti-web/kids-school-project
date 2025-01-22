@@ -1,40 +1,40 @@
-@media (max-width: 768px) {
-    .header{
-        padding: 1.5rem;
-        border: 1px solid orange;
-    }
-    .logo-text, .menu, .nav-btn{
-        display: none;
-    }
-    .icon{
-        display: block;
-        position: absolute;
-        top: -15px;
-        right: -30px;
-        transform: translate(-100%, 60%);
-        font-size: 4rem;
-        cursor: pointer;
-    }
-    .hero-img{
-        order: 1;
-    }
-    .hero-content{
-        order: 2;
-        text-align: center;
-    }
-    .arrow {
-      display: none;
-    }
-    .curriculum-items{
-        padding: 0 50px;
-    }
-    .hero, .footer-container, .curriculum-items {
-      flex-direction: column;
-    }
-  }
-  /* test */
-  /* Extra small devices (portrait phones, less than 576px) */
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px){
+  .header{
+    padding: 1.5rem;
+    border: 1px solid orange;
+}
+.logo-text, .menu, .nav-btn{
+    display: none;
+}
+.btn:hover{
+  transform: none;
+}
+.btn-secondary:hover{
+  background-color: #111;
+}
+.icon{
+    display: block;
+    position: absolute;
+    top: -15px;
+    right: -30px;
+    transform: translate(-100%, 60%);
+    font-size: 4rem;
+    cursor: pointer;
+}
+.hero-img{
+    order: 1;
+}
+.hero-content{
+    order: 2;
+    text-align: center;
+}
+.arrow {
+  display: none;
+}
+.hero, .footer-container, .curriculum-items {
+flex-direction: column;
+}
   .curriculum, .our-stories{
     padding: 40px 0;
   }
@@ -54,8 +54,12 @@
   }
   .curriculum-items{
     padding: 0 1rem;
-    gap: .758rem;
+    gap: 1.25rem;
   }
+  .curriculum-item:hover{
+    transform: none;
+    cursor: pointer;
+}
   .section-title{
     font-size: 1.625rem;
     margin-bottom: 25px;
@@ -76,6 +80,10 @@
     border-radius: 28px;
     font-size: .5625rem;
     font-weight: 500;
+}
+.group-item-btn:hover{
+  transform: none;
+  cursor: text;
 }
 .group-item-title {
   font-size: .5625rem;
